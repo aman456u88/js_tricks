@@ -1,0 +1,9 @@
+Trick 1:
+let name = 'Charlse';
+let place = 'India';
+let isPrime = bit => {
+  return (bit === 'P' ? 'Prime' : 'Nom-Prime');
+}
+
+// string concatenation using + operator
+let messageConcat = 'Mr. ' + name + ' is from ' + place + '. He is a' + ' ' + isPrime('P') + ' member.'
