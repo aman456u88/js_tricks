@@ -7,3 +7,11 @@ let isPrime = bit => {
 
 // string concatenation using + operator
 let messageConcat = 'Mr. ' + name + ' is from ' + place + '. He is a' + ' ' + isPrime('P') + ' member.'
+
+Trick 2:is integer:
+let mynum = 123;
+let mynumStr = "123";
+
+console.log(`${mynum} is a number?`, Number.isInteger(mynum));
+console.log(`${mynumStr} is a number?`, Number.isInteger(mynumStr));
+
