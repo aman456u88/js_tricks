@@ -15,3 +15,21 @@ let mynumStr = "123";
 console.log(`${mynum} is a number?`, Number.isInteger(mynum));
 console.log(`${mynumStr} is a number?`, Number.isInteger(mynumStr));
 
+Trick 3: Get a random item from an array:
+
+var items = [12, 548 , 'a' , 2 , 8 ,119];
+
+var  randomItem = items[Math.floor(Math.random() * items.length)];
+
+Trick 4:Deal with indexes:
+
+var numbersArray = [1,2,3,4,5]; 
+var from = numbersArray.indexOf("fo") ; 
+numbersArray.splice(from,2);     
+
+Trick 5:DOM:
+Put JavaScript <script> tags just before the closing </body> tag rather than in the <head> section of your HTML
+because HTML loads from top to bottom. The head loads first, then the body, and then everything inside the body.
+
+
+
